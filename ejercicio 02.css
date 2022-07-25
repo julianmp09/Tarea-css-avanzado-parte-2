@@ -1,0 +1,78 @@
+html{
+    font-family: 'Montserrat', sans-serif;
+}
+
+body{
+    margin: 0;
+}
+
+header{
+    background-color: #364552;
+    color: white;
+    padding: 48px 32px;
+}
+
+header h1{
+    font-size: 64px;
+    text-align: center;
+}
+
+.flex-container{
+    border: 1px solid black;
+    background-color: #ccc;
+    padding: 20px;
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap-reverse;
+    justify-content: center;
+    align-content: center;
+}
+
+.caja{
+    border: 1px solid rgb(72, 71, 71);
+    background-color: white;
+    color: black;
+    font-weight: bold;
+    width: 120px;
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+}
+
+.c1{
+    background-color: red;  
+}
+
+.c2{
+    background-color: blue;
+}
+
+.c3{
+    background-color: green;   
+}
+
+footer{
+    background-color: #222;
+    padding: 3rem;
+    color: #fff;
+}
+
+footer section{
+    float: right;
+}
+
+footer a{
+    transition: color 0.3s ease;
+    color: white;
+    text-decoration: none;
+}
+
+footer a:hover{
+    color: cornflowerblue;
+}
+
+.fa-brands{
+    font-size: 32px;
+}
